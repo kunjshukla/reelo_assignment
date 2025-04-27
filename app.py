@@ -113,6 +113,7 @@ def classify_review(review):
     return 'Other'
 
 # Update the review submission logic
+st.title("Review Sentiment Dashboard")
 review = st.text_input("Enter your review (e.g., 'Amazing coffee!')")
 if st.button("Analyze Sentiment", key="analyze"):
     if review:
